@@ -1,5 +1,5 @@
 {
-  "name": "@guac/client",
+  "name": "@guac/server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,8 +8,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@okikio/emitter": "^2.1.7"
-  }
+  "license": "ISC"
 }

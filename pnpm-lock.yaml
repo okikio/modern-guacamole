@@ -1,18 +1,26 @@
 lockfileVersion: 5.4
 
-specifiers:
-  '@astrojs/solid-js': ^1.2.1
-  '@astrojs/tailwind': ^2.1.1
-  astro: ^1.5.2
-  solid-js: ^1.6.0
-  tailwindcss: ^3.2.1
+importers:
 
-dependencies:
-  '@astrojs/solid-js': 1.2.1_solid-js@1.6.0
-  '@astrojs/tailwind': 2.1.1_tailwindcss@3.2.1
-  astro: 1.5.2
-  solid-js: 1.6.0
-  tailwindcss: 3.2.1
+  .:
+    specifiers:
+      '@astrojs/solid-js': ^1.2.1
+      '@astrojs/tailwind': ^2.1.1
+      astro: ^1.5.2
+      solid-js: ^1.6.0
+      tailwindcss: ^3.2.1
+    dependencies:
+      '@astrojs/solid-js': 1.2.1_solid-js@1.6.0
+      '@astrojs/tailwind': 2.1.1_tailwindcss@3.2.1
+      astro: 1.5.2
+      solid-js: 1.6.0
+      tailwindcss: 3.2.1
+
+  packages/client:
+    specifiers:
+      '@okikio/emitter': ^2.1.7
+    dependencies:
+      '@okikio/emitter': 2.1.7
 
 packages:
 
@@ -497,6 +505,16 @@ packages:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
+    dev: false
+
+  /@okikio/emitter/2.1.7:
+    resolution: {integrity: sha512-Ta87D0uTN/RclDm3zNwzKaPm2jES58uh3MW3OlRBJ7MNn/c6jIz/I3i01HF3T4qKWjqjNj7OdyT6ndg5P972qw==}
+    dependencies:
+      '@okikio/manager': 2.1.7
+    dev: false
+
+  /@okikio/manager/2.1.7:
+    resolution: {integrity: sha512-fle8woS2vX4Im8wPekQOxYT00ITA5lABqEGoE12Tj7Mb6HdMsQBVxujMLVJ7OobMTmZHdT949A4yc35MC/uTEA==}
     dev: false
 
   /@pkgr/utils/2.3.1:
