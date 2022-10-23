@@ -19,8 +19,11 @@ importers:
   packages/client:
     specifiers:
       '@okikio/emitter': ^2.1.7
+      '@types/offscreencanvas': ^2019.7.0
     dependencies:
       '@okikio/emitter': 2.1.7
+    devDependencies:
+      '@types/offscreencanvas': 2019.7.0
 
 packages:
 
@@ -635,6 +638,10 @@ packages:
     dependencies:
       '@types/unist': 2.0.6
     dev: false
+
+  /@types/offscreencanvas/2019.7.0:
+    resolution: {integrity: sha512-PGcyveRIpL1XIqK8eBsmRBt76eFgtzuPiSTyKHZxnGemp2yzGzWpjYKAfK3wIMiU7eH+851yEpiuP8JZerTmWg==}
+    dev: true
 
   /@types/parse5/6.0.3:
     resolution: {integrity: sha512-SuT16Q1K51EAVPz1K29DJ/sXjhSQ0zjvsypYJ6tlwVsRV9jwW5Adq2ch8Dq8kDBCkYnELS7N7VNCSB5nC56t/g==}

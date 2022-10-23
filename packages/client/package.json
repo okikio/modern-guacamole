@@ -11,5 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "@okikio/emitter": "^2.1.7"
+  },
+  "devDependencies": {
+    "@types/offscreencanvas": "^2019.7.0"
   }
 }
